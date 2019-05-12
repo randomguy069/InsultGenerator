@@ -13,5 +13,10 @@ namespace IGen
         {
             InitializeComponent();
         }
+
+        private void InsultButton_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Alert","Test Alert","Ok");
+        }
     }
 }
