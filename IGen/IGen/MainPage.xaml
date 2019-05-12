@@ -7,16 +7,20 @@
     <StackLayout BackgroundColor="Black">
         <!-- Place new controls here -->
         <Label Text="Generate an Insult" 
-            TextColor="White"
+            TextColor="Red"
+               FontSize="Large"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
         <Button
             x:Name="insultButton"
             Text="Insult Me!"
-            TextColor="Red"
+            TextColor="White"
+            BackgroundColor="Green"
             Clicked="InsultButton_Clicked"
             VerticalOptions="Center"
             HorizontalOptions="Center"
+            
+            Margin="19,10,19,200"
             />
         
     </StackLayout>
